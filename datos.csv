@@ -1,0 +1,101 @@
+id,nombre,apellido,email,edad,ciudad,fecha_registro,ingreso_anual
+1,Lucía,Ramírez,lucía.ramírez@example.com,38,Tijuana,2023-11-01,90154.32
+2,Luis,Pérez,luis.pérez@example.com,38,Guadalajara,2020-11-23,102709.03
+3,María,González,maría.gonzález@example.com,54,Querétaro,2024-05-07,50823.49
+4,José,Sánchez,josé.sánchez@example.com,26,León,2020-12-11,101923.76
+5,Isabel,López,isabel.lópez@example.com,61,Tijuana,2020-08-14,102186.81
+6,Lucía,Pérez,lucía.pérez@example.com,56,Ciudad de México,2025-01-26,79969.75
+7,Carlos,Pérez,carlos.pérez@example.com,44,Ciudad de México,2023-01-18,115593.6
+8,José,Martínez,josé.martínez@example.com,48,Tijuana,2021-01-14,56119.81
+9,Luis,Rodríguez,luis.rodríguez@example.com,43,Ciudad de México,2020-08-14,55099.06
+10,Isabel,Flores,isabel.flores@example.com,36,Guadalajara,2021-04-13,29402.41
+11,Pedro,Ramírez,pedro.ramírez@example.com,64,Puebla,2023-11-19,77599.17
+12,José,Rodríguez,josé.rodríguez@example.com,61,Guadalajara,2022-03-11,37618.93
+13,José,Flores,josé.flores@example.com,40,Mérida,2023-04-02,54955.28
+14,Lucía,Martínez,lucía.martínez@example.com,40,Puebla,2025-03-02,104916.38
+15,Pedro,García,pedro.garcía@example.com,34,Guadalajara,2022-01-03,31795.79
+16,Isabel,Hernández,isabel.hernández@example.com,18,Ciudad de México,2022-07-22,138526.13
+17,Luis,García,luis.garcía@example.com,40,Cancún,2023-01-17,66576.78
+18,Ana,Pérez,ana.pérez@example.com,32,Cancún,2022-01-04,34500.98
+19,Pedro,Martínez,pedro.martínez@example.com,58,Cancún,2022-12-15,132816.62
+20,Luis,Ramírez,luis.ramírez@example.com,18,Monterrey,2024-10-06,108217.76
+21,María,Hernández,maría.hernández@example.com,19,Toluca,2021-04-03,139845.22
+22,Lucía,Pérez,lucía.pérez@example.com,49,Toluca,2021-04-21,23884.05
+23,Luis,Sánchez,luis.sánchez@example.com,62,Puebla,2021-05-19,134981.73
+24,Isabel,Flores,isabel.flores@example.com,32,Guadalajara,2023-08-20,135405.29
+25,Lucía,Rodríguez,lucía.rodríguez@example.com,52,Querétaro,2025-02-10,36650.69
+26,Pedro,Rodríguez,pedro.rodríguez@example.com,65,Querétaro,2020-07-12,45563.68
+27,José,Sánchez,josé.sánchez@example.com,35,Toluca,2024-06-25,23691.43
+28,Isabel,López,isabel.lópez@example.com,56,Toluca,2023-05-08,142001.35
+29,Juan,González,juan.gonzález@example.com,29,Ciudad de México,2023-04-11,21259.5
+30,Lucía,Flores,lucía.flores@example.com,41,Puebla,2025-03-22,138727.17
+31,Juan,Pérez,juan.pérez@example.com,18,Puebla,2021-04-30,61813.22
+32,José,Rodríguez,josé.rodríguez@example.com,30,Cancún,2021-04-06,95182.86
+33,Laura,Rodríguez,laura.rodríguez@example.com,54,Cancún,2021-03-20,126251.87
+34,Carlos,Flores,carlos.flores@example.com,45,Mérida,2021-08-28,114819.13
+35,Juan,González,juan.gonzález@example.com,53,Mérida,2021-04-07,147331.69
+36,Ana,Pérez,ana.pérez@example.com,27,Guadalajara,2021-09-14,147944.83
+37,José,Rodríguez,josé.rodríguez@example.com,47,León,2022-02-16,111080.41
+38,Isabel,Hernández,isabel.hernández@example.com,27,Tijuana,2023-06-04,49150.36
+39,Laura,Martínez,laura.martínez@example.com,61,Toluca,2020-11-12,33437.68
+40,Carlos,García,carlos.garcía@example.com,47,Tijuana,2021-01-03,64391.32
+41,Lucía,Sánchez,lucía.sánchez@example.com,56,Tijuana,2022-12-06,49423.12
+42,Juan,Martínez,juan.martínez@example.com,32,León,2022-02-02,99802.91
+43,José,García,josé.garcía@example.com,44,Tijuana,2023-09-03,135204.31
+44,Laura,Rodríguez,laura.rodríguez@example.com,43,Monterrey,2025-01-20,71533.02
+45,Luis,Pérez,luis.pérez@example.com,47,León,2022-07-08,87965.11
+46,José,García,josé.garcía@example.com,59,Tijuana,2023-06-18,124964.21
+47,Juan,Hernández,juan.hernández@example.com,20,Guadalajara,2024-10-16,54800.35
+48,Carlos,López,carlos.lópez@example.com,47,Toluca,2022-08-02,132305.72
+49,Laura,Sánchez,laura.sánchez@example.com,50,Cancún,2021-08-12,124367.29
+50,María,Flores,maría.flores@example.com,20,Toluca,2020-09-13,100421.27
+51,Ana,Hernández,ana.hernández@example.com,25,Ciudad de México,2021-01-29,123400.55
+52,Carlos,Sánchez,carlos.sánchez@example.com,18,Cancún,2020-11-26,52752.78
+53,Luis,López,luis.lópez@example.com,26,Guadalajara,2025-02-20,140893.25
+54,María,Rodríguez,maría.rodríguez@example.com,36,Toluca,2021-12-17,117599.31
+55,María,Ramírez,maría.ramírez@example.com,52,Cancún,2022-01-12,66372.01
+56,Luis,Pérez,luis.pérez@example.com,54,Puebla,2024-04-18,142576.77
+57,José,Flores,josé.flores@example.com,61,Toluca,2023-08-09,107892.21
+58,Carlos,Flores,carlos.flores@example.com,33,Guadalajara,2024-11-07,109877.87
+59,Pedro,Flores,pedro.flores@example.com,32,Puebla,2021-09-29,124902.95
+60,Laura,Martínez,laura.martínez@example.com,56,Querétaro,2021-08-30,37854.03
+61,María,García,maría.garcía@example.com,33,Querétaro,2022-06-02,23265.42
+62,Juan,González,juan.gonzález@example.com,38,Mérida,2023-03-25,61987.55
+63,Pedro,Sánchez,pedro.sánchez@example.com,56,Tijuana,2025-06-07,105571.31
+64,Ana,García,ana.garcía@example.com,38,Toluca,2024-04-16,107537.09
+65,Lucía,Martínez,lucía.martínez@example.com,18,Puebla,2022-12-14,114560.85
+66,Lucía,Flores,lucía.flores@example.com,64,Monterrey,2020-09-15,97316.8
+67,Juan,López,juan.lópez@example.com,54,Puebla,2021-02-27,23286.2
+68,Laura,Ramírez,laura.ramírez@example.com,23,Monterrey,2022-02-05,71017.12
+69,Isabel,García,isabel.garcía@example.com,24,Mérida,2021-09-04,146083.55
+70,Isabel,Flores,isabel.flores@example.com,47,Puebla,2025-04-08,38636.27
+71,Ana,Pérez,ana.pérez@example.com,48,León,2023-03-07,57728.13
+72,Laura,Hernández,laura.hernández@example.com,27,Ciudad de México,2022-10-22,53325.0
+73,Laura,Pérez,laura.pérez@example.com,34,Puebla,2023-02-10,148867.34
+74,Carlos,López,carlos.lópez@example.com,55,Monterrey,2020-12-10,25532.85
+75,Carlos,Rodríguez,carlos.rodríguez@example.com,21,Guadalajara,2024-10-12,139679.97
+76,Juan,Rodríguez,juan.rodríguez@example.com,38,Tijuana,2020-07-14,21130.29
+77,María,Rodríguez,maría.rodríguez@example.com,23,Guadalajara,2023-04-20,21628.4
+78,María,Pérez,maría.pérez@example.com,46,Puebla,2021-09-13,135784.93
+79,Ana,Sánchez,ana.sánchez@example.com,39,Mérida,2023-07-21,101067.83
+80,Ana,Ramírez,ana.ramírez@example.com,39,Puebla,2022-03-16,113763.65
+81,María,Pérez,maría.pérez@example.com,58,Monterrey,2025-05-27,94465.69
+82,Carlos,González,carlos.gonzález@example.com,32,Puebla,2020-09-11,144338.55
+83,Laura,Ramírez,laura.ramírez@example.com,23,Puebla,2021-10-05,48968.57
+84,Lucía,García,lucía.garcía@example.com,64,Monterrey,2024-01-12,123177.82
+85,Juan,Ramírez,juan.ramírez@example.com,46,Querétaro,2022-12-21,34904.06
+86,Carlos,Pérez,carlos.pérez@example.com,32,Guadalajara,2023-07-25,76719.7
+87,Pedro,Pérez,pedro.pérez@example.com,61,Guadalajara,2021-09-11,35157.66
+88,Ana,Rodríguez,ana.rodríguez@example.com,25,Guadalajara,2023-03-22,86646.8
+89,María,González,maría.gonzález@example.com,47,Toluca,2021-06-16,21085.08
+90,Laura,Rodríguez,laura.rodríguez@example.com,28,Ciudad de México,2024-09-23,118364.95
+91,Isabel,Martínez,isabel.martínez@example.com,53,Monterrey,2020-11-24,59985.24
+92,María,Sánchez,maría.sánchez@example.com,41,Guadalajara,2022-08-26,46715.65
+93,Juan,Ramírez,juan.ramírez@example.com,28,Toluca,2021-07-19,26126.78
+94,Ana,García,ana.garcía@example.com,40,Cancún,2025-06-12,146146.78
+95,Ana,Pérez,ana.pérez@example.com,46,Monterrey,2024-03-15,128770.15
+96,Juan,Ramírez,juan.ramírez@example.com,55,Tijuana,2025-04-24,29942.89
+97,Laura,García,laura.garcía@example.com,55,Monterrey,2025-03-02,113356.43
+98,Juan,Martínez,juan.martínez@example.com,39,Ciudad de México,2021-11-27,97625.35
+99,Laura,López,laura.lópez@example.com,58,Monterrey,2024-04-08,126993.8
+100,Ana,Flores,ana.flores@example.com,35,Puebla,2020-10-18,31422.44

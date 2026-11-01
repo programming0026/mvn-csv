@@ -20,6 +20,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import org.bson.Document;
 
+import java.util.logging.Logger;
 /**
  * Importa un CSV a MongoDB en lotes de 100 filas con inserciones asíncronas (CompletableFuture).
  * Todos los valores se guardan como texto.
@@ -27,6 +28,8 @@ import org.bson.Document;
  * @author ajuar
  */
 public class CsvToMongoBatchV2 {
+    private static final Logger LOGGER = AppLogger.get(CsvToMongoBatchV2.class);
+
 
     private static final int BATCH_SIZE = 100;
     private static final int MAX_PARALLEL_INSERTS = 4;
@@ -76,7 +79,7 @@ Path csvPath = Paths.get(args.length > 0 ? args[0] : "datos.csv");
                     );
                     batch.clear();
                     totalCount += BATCH_SIZE;
-                    System.out.println("Procesadas: " + totalCount);
+                    LOGGER.info("Procesadas: " + totalCount);
                 }
             }
 
@@ -86,15 +89,15 @@ Path csvPath = Paths.get(args.length > 0 ? args[0] : "datos.csv");
                         CompletableFuture.runAsync(() -> insertBatch(collection, toInsert), executor)
                 );
                 totalCount += batch.size();
-                System.out.println("Procesadas: " + totalCount);
+                LOGGER.info("Procesadas: " + totalCount);
             }
 
             // Esperar a que terminen todas las inserciones
             CompletableFuture.allOf(insertFutures.toArray(CompletableFuture[]::new)).join();
-            System.out.println("Importacion completada.");
+            LOGGER.info("Importacion completada.");
 
         } catch (IOException e) {
-            System.err.println("Error al leer archivo: " + e.getMessage());
+            LOGGER.severe("Error al leer archivo: " + e.getMessage());
         } finally {
             executor.shutdown();
         }
@@ -109,7 +112,7 @@ Path csvPath = Paths.get(args.length > 0 ? args[0] : "datos.csv");
         try {
             collection.insertMany(batch, new InsertManyOptions().ordered(false));
         } catch (Exception e) {
-            System.err.println("Error en inserción batch: " + e.getMessage());
+            LOGGER.severe("Error en inserción batch: " + e.getMessage());
         }
     }
 

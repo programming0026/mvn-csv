@@ -16,6 +16,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.Pattern;
 
+import java.util.logging.Logger;
 /**
  * Importa un CSV a MongoDB con el patrón productor-consumidor: un hilo lee el archivo, agrupa las filas en lotes
  * y varios hilos trabajadores los insertan. Detecta el tipo de cada valor (entero, decimal, booleano, fecha o texto).
@@ -23,6 +24,8 @@ import java.util.regex.Pattern;
  * @author ajuar
  */
 public class CsvToMongoBatchV1 {
+    private static final Logger LOGGER = AppLogger.get(CsvToMongoBatchV1.class);
+
 
     private static final Pattern INTEGER = Pattern.compile("-?(0|[1-9]\\d*)");
     private static final Pattern DECIMAL = Pattern.compile("-?(0|[1-9]\\d*)\\.\\d+([eE][+-]?\\d+)?");
@@ -67,7 +70,7 @@ Path csvPath = Paths.get(args.length > 0 ? args[0] : "datos.csv");
 
             // Esperar a que todos los workers terminen
             workersDone.await();
-            System.out.println("Importados " + total + " registros a MongoDB (concurrencia: " + NUM_WORKERS + " workers)");
+            LOGGER.info("Importados " + total + " registros a MongoDB (concurrencia: " + NUM_WORKERS + " workers)");
         }
     }
 

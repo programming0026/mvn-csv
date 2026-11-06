@@ -25,7 +25,7 @@ import java.util.logging.Logger;
  * Importa un CSV a MongoDB en lotes de 100 filas con inserciones asíncronas (CompletableFuture).
  * Todos los valores se guardan como texto.
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class CsvToMongoBatchV2 {
     private static final Logger LOGGER = AppLogger.get(CsvToMongoBatchV2.class);

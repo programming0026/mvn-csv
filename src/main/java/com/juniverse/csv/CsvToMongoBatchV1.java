@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  * Importa un CSV a MongoDB con el patrón productor-consumidor: un hilo lee el archivo, agrupa las filas en lotes
  * y varios hilos trabajadores los insertan. Detecta el tipo de cada valor (entero, decimal, booleano, fecha o texto).
  *
- * @author ajuar
+ * @author Java Universe
  */
 public class CsvToMongoBatchV1 {
     private static final Logger LOGGER = AppLogger.get(CsvToMongoBatchV1.class);
